@@ -1,6 +1,6 @@
 # Simple API Java
 
-Aplicação API 
+Aplicação API. Testando conexão com a azure 
 
 ## Pré-requisitos
 
