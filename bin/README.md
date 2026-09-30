@@ -14,9 +14,6 @@ Aplicação API. Testando conexão com a azure
 docker compose up --build
 ```
 
-Com Docker Compose, a API fica disponível em `http://localhost:8081` e o MySQL
-em `localhost:3308`. Entre os containers, a API acessa o banco em `db:3306`.
-
 ## Testes unitários (validação)
 
 ./mvnw test
@@ -24,6 +21,7 @@ em `localhost:3308`. Entre os containers, a API acessa o banco em `db:3306`.
 
 ## Documentação online (OpenAPI)
 
-http://localhost:8081/swagger-ui/index.html
+http://localhost:8080/swagger-ui/index.html
 
 ![](/assets/images/swagger.png)
+
