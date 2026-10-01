@@ -4,12 +4,12 @@ jobs:
     job1-hello:
         runs-on: ubuntu-latest
         steps:
-        - name: Imprimir mensagem
+        - name: Print message
           run: echo "Hello World!"
     job2-goodbye:
         runs-on: ubuntu-latest
         steps:
-        - name: Step 1 - Sequencia de instruções
+        - name: Step 1 - Instructions
           run: |
             echo "Uma nova instrução"
             ls
