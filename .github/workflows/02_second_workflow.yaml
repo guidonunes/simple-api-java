@@ -1,4 +1,4 @@
-name: Workflow filter
+name: 02-workflow-filter
 
 on:
   push:
